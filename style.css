@@ -1,0 +1,92 @@
+:root {
+    --black: #000000;
+    --gray: #d3d3d3;
+}
+body {
+    color: var(--gray);
+    background-color: var(--black);
+}
+a, a:hover, a:visited {
+    text-decoration: none;
+    color:var(--gray);
+}
+a:active {
+    color:var(--gray);
+}
+header {
+    background-color: var(--black);
+    color: var(--gray);
+    padding-top: 2em;
+}
+ul.user-menu {
+    list-style-type: none;
+}
+ul.user-menu > li {
+    display: inline-block;
+    padding: 0 5px;
+}
+nav {
+    font-weight: 600;
+}
+nav.site-nav > ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+nav.site-nav > ul > li {
+    display: inline-block;
+    padding: 1em;
+}
+nav.site-nav > ul > li:hover {
+    background-color: var(--black);
+    color: var(--gray);
+}
+.cart {
+    padding: 1em;
+}
+#myCarousel{
+    margin-left: calc(-1 * var(--bs-gutter-x,.75rem));
+    margin-right: calc(-1 * var(--bs-gutter-x,.75rem));
+}
+.myCarousel{
+    height: flex;
+}
+
+
+div.breadcrumbs {
+    font-size: 0.8em;
+}
+.product-tile {
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+.product-tile:hover {
+    border: 1px solid var(--black);
+}
+main h2.product-name {
+    font-size: 1.5em;
+}
+
+div.mobile-cart {
+    position: fixed;
+    bottom:30px;
+    right:5px;
+    background-color: var(--black);
+    color: var(--black);
+    padding: .5em;
+    border-radius: 5px;
+}
+
+div#sidebar-cart ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+div.product-full-description > div:first-of-type ul {
+ list-style-type: none;
+ padding-left: 0;
+}
+div.product-full-description > div:first-of-type ul li {
+    padding: 1em;
+}
+footer {
+    background-color: var(--black);
+}
